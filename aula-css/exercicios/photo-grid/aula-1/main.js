@@ -21,3 +21,7 @@ function details5() {
 function details6() {
     window.location.href ="details-6.html";
 }
+
+function voltar() {
+    window.location.href ="index.html";
+}
