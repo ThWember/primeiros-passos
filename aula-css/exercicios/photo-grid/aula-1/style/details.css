@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgba(180, 233, 211, 0.705);
+    background: rgb(236, 245, 243);
     font-family: "Helvetiva", Helvetica, sans-serif;
     color: #000000;
     align-items: center;
@@ -16,24 +16,32 @@ main {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    justify-content: center;
 }
 
 header {
     display: flex;
     height: 15%;
-    margin-left: 10%;
+    margin: 1% 20% 0% 20%;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
 
-.title {
-    display: flex;
-    align-items: left;
+button {
+    justify-content: left;
+    background-color:rgb(236, 245, 243);
+    color: black;
+    font-size: 14px;
+    border-width: 0;
+    border-image: none;
+    border-radius: 2.5%;
+    transition: .2s ease all;
 }
 
 h2 {
     font-size: 18px;
     font-weight: lighter;
+    padding: 10px;
 }
 
 img {
@@ -42,17 +50,21 @@ img {
 }
 
 .card {
-    width: 30%;
-    background:  rgb(236, 245, 243);
-    margin: 2%;
+    display: flex;
+    width: 40%;
     border-radius: 1%;
+    align-content: flex-start;
 }
 
-
 .container {
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
+    background-color: white;
+    border: 3px solid whitesmoke;
+    box-shadow: 1px 3px 3px 1px rgb(167, 187, 186);
+    margin: 1% 3% 3% 3%;
 }
 
 p {
@@ -63,16 +75,4 @@ p {
 
 i {
     padding: 3%;
-}
-
-button {
-    background-color: rgba(65, 65, 65, 0.5);
-    color: white;
-    font-size: 20px;
-    border-width: 0;
-    padding: 10px 25px;
-    border-image: none;
-    border-radius: 2.5%;
-    transition: .2s ease all;
-    margin: 0px 0px 25px 60px;
 }
