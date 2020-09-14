@@ -46,7 +46,7 @@ h2 {
 
 img {
     width: 100%;
-    border-radius: 1%;   
+    border-radius: 1%; 
 }
 
 .card {
@@ -67,9 +67,33 @@ img {
     margin: 1% 3% 3% 3%;
 }
 
-p {
-    justify-content: space-between;
-    padding: 5%;
+.container2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.user img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 3% 3% 3% 3%;
+}
+
+.description p {
+    justify-content: center;
+    padding: 3%;
     font-size: 16px;
 }
 
