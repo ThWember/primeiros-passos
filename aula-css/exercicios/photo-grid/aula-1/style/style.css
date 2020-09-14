@@ -19,10 +19,17 @@ main {
 
 header {
     display: flex;
-    height: 20%;
+    height: 15%;
     margin-left: 10%;
     align-items: center;
     justify-content: left;
+}
+
+
+.my-photo {
+    width: 10%;
+    border-radius: 50%;
+    margin: 3% 3% 3% 2%;
 }
 
 .title {
@@ -31,15 +38,19 @@ header {
     align-items: left;
 }
 
-.my-photo {
-    width: 10%;
-    border-radius: 50%;
-    margin: 3%;
+h1 {
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 img {
     width: 100%;
-    border-radius: 1%;
+    border-radius: 1%;   
 }
 
 .card {
@@ -48,6 +59,7 @@ img {
     margin: 2%;
     border-radius: 1%;
 }
+
 
 .container1 {
     display: flex;
@@ -61,3 +73,16 @@ img {
     justify-content: space-around;
 }
 
+p {
+    justify-content: space-between;
+    padding: 5%;
+}
+
+i {
+    padding: 3%;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
