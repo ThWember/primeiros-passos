@@ -21,7 +21,6 @@ header {
     display: flex;
     height: 20%;
     margin-left: 10%;
-    padding: 3% 3% 3% 0%;
     align-items: center;
     justify-content: left;
 }
@@ -35,12 +34,12 @@ header {
 .my-photo {
     width: 10%;
     border-radius: 50%;
+    margin: 3%;
 }
 
 img {
     width: 100%;
     border-radius: 1%;
-    margin: 3%;
 }
 
 .card {
