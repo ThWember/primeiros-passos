@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(236, 245, 243);
+    font-family: "Helvetiva", Helvetica, sans-serif;
+    color: #000000;
+    align-items: center;
+    justify-content: left;
+}
+
+main {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    margin: 1% 20% 0% 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    justify-content: left;
+    background-color:rgb(236, 245, 243);
+    color: black;
+    font-size: 14px;
+    border-width: 0;
+    border-image: none;
+    border-radius: 2.5%;
+    transition: .2s ease all;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 1%; 
+}
+
+.card {
+    display: flex;
+    width: 40%;
+    border-radius: 1%;
+    align-content: flex-start;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    border: 3px solid whitesmoke;
+    box-shadow: 1px 3px 3px 1px rgb(167, 187, 186);
+    margin: 1% 3% 3% 3%;
+}
+
+.container2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.user img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 3% 3% 3% 3%;
+}
+
+.description p {
+    justify-content: center;
+    padding: 3%;
+    font-size: 16px;
+}
+
+i {
+    padding: 3%;
+}

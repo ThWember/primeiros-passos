@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5, CSS3">
+    <meta name="author" content="Thais Wemberlaine Dias Machado Rocha">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Thais's Photo Grid</title>
+</head>
+<body>
+    <header>
+        <img class="my-photo" src="images/me.jfif"
+        alt="Minha Foto"/>
+        <div class="title">
+            <h1>Séries Favoritas</h1>
+            <h2>Melhores Séries por Thais Dias</h2>
+        </div>
+    </header>
+    <main>
+    <div class="container1">
+        <div class="card" id="details-1">
+            <img src="images/brooklin-poster.jpg"
+            alt="Poster da série Brooklin Nine-nine"
+            onclick="details1()"/>
+            <p><i class="far fa-heart"></i>Brooklin Nine-nine</p>
+        </div>
+        <div class="card">
+            <img src="images/the-crown-poster.jpg"
+            alt="Poster da série The Crown"
+            onclick="details2()"/>
+            <p><i class="far fa-heart"></i>The Crown</p>
+        </div>
+        <div class="card">
+            <img src="images/wild-country-poster.jpg"
+            alt="Poster da série Wild Wild Country"
+            onclick="details3()"/>
+            <p><i class="far fa-heart"></i>Wild Wild Country</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="card">
+            <img src="images/grace-and-frankie-poster.jpg"
+            alt="Poster da série Grace and Frankie"
+            onclick="details4()"/>
+            <p><i class="far fa-heart"></i>Grace and Frankie</p>
+        </div>
+        <div class="card">
+            <img src="images/tiger-king-poster.jpg"
+            alt="Poster da série Tiger King"
+            onclick="details5()"/>
+            <p><i class="far fa-heart"></i>Tiger King</p>
+        </div>
+        <div class="card">
+            <img src="images/rupaul-poster.jpg"
+            alt="Poster da série RuPaul's Drag Race"
+            onclick="details6()"/>
+            <p><i class="far fa-heart"></i>RuPaul's Drag Race</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>My Photo Grid desenvolvido por Thais Dias | WoMakersCode MG</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/1dc252160e.js"></script>
+</body>
+</html>

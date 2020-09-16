@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(236, 245, 243);
+    font-family: "Helvetiva", Helvetica, sans-serif;
+    color: #000000;
+    align-items: center;
+    justify-content: left;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.my-photo {
+    width: 10%;
+    border-radius: 50%;
+    margin: 3% 3% 3% 2%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+    border-radius: 1%;   
+}
+
+.card {
+    width: 30%;
+    background: white;
+    margin: 2%;
+    border-radius: 1%;
+}
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    justify-content: space-between;
+    padding: 5%;
+    font-size: 16px;
+}
+
+i {
+    padding: 3%;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
