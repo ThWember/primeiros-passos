@@ -1,0 +1,32 @@
+@media (max-width: 425px) {
+    h2 {
+        font-size: 16px;
+    }
+
+    img {
+        margin: 10% 0 0 0;
+    }
+    
+    .card {
+        width: 50%;
+    }
+    
+    .user p {
+        font-size: 14px;
+    }
+    
+    .description p {
+        font-size: 12px;
+        padding: 0;
+    }
+    
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .container2 {
+        width: 80%;
+        margin: 3%;
+    }
+}
